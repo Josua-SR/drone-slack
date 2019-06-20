@@ -1,9 +1,11 @@
 bou.ke/monkey v1.0.1 h1:zEMLInw9xvNakzUUPjfS4Ds6jYPqCFx3m7bRmG5NH2U=
 bou.ke/monkey v1.0.1/go.mod h1:FgHuK96Rv2Nlf+0u1OOVDpCMdsWyOFmeeketDHE7LIg=
+github.com/Josua-SR/slack d41cb42ce6d3 h1:GF3dMYfTT1Y90HPxmI+0VHIxyM77Dg5QT1Wro19s58I=
+github.com/Josua-SR/slack d41cb42ce6d3/go.mod h1:ukwX4EAsIYSINjx6jQUSG/W3Hiac4dl3G1OlM3G6YIg=
+github.com/Josua-SR/slack v0.0.0-20190620111636-d41cb42ce6d3 h1:GF3dMYfTT1Y90HPxmI+0VHIxyM77Dg5QT1Wro19s58I=
+github.com/Josua-SR/slack v0.0.0-20190620111636-d41cb42ce6d3/go.mod h1:ukwX4EAsIYSINjx6jQUSG/W3Hiac4dl3G1OlM3G6YIg=
 github.com/aymerick/raymond v2.0.2+incompatible h1:VEp3GpgdAnv9B2GFyTvqgcKvY+mfKMjPOA3SbKLtnU0=
 github.com/aymerick/raymond v2.0.2+incompatible/go.mod h1:osfaiScAUVup+UC9Nfq76eWqDhXlp+4UYaA8uhTBO6g=
-github.com/bluele/slack v0.0.0-20180528010058-b4b4d354a079 h1:dm7wU6Dyf+rVGryOAB8/J/I+pYT/9AdG8dstD3kdMWU=
-github.com/bluele/slack v0.0.0-20180528010058-b4b4d354a079/go.mod h1:W679Ri2W93VLD8cVpEY/zLH1ow4zhJcCyjzrKxfM3QM=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/drone/drone-template-lib v0.0.0-20181004051823-4019baa6c594 h1:zPRVfiHpXeGt1XGpK2TQcaj2lRydiGdVz1AoHkaC554=

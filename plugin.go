@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bluele/slack"
+	"github.com/Josua-SR/slack"
 	"github.com/drone/drone-template-lib/template"
 )
 
