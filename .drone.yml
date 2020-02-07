@@ -7,24 +7,24 @@ clone:
 
 platform:
   os: linux
-  arch: arm64
+  arch: amd64
 
 steps:
   - name: compile
     image: golang:latest
     environment:
       GOOS: linux
-      GOARCH: arm64
+      GOARCH: amd64
       CGO_ENABLED: 0
     commands:
-    - go build -a -tags netgo -o release/linux/arm64/drone-slack
+    - go build -a -tags netgo -o release/linux/amd64/drone-slack
 
   - name: container
-    image: plugins/docker:linux-arm64
+    image: plugins/docker:linux-amd64
     settings:
-      dockerfile: docker/Dockerfile.linux.arm64
-      registry: docker.solid-build.xyz
-      repo: docker.solid-build.xyz/plugins/slack
+      dockerfile: docker/Dockerfile.linux.amd64
+      registry: container.solid-build.xyz
+      repo: container.solid-build.xyz/drone/plugins/slack
       tags: latest
       username:
         from_secret: docker_username
@@ -32,7 +32,7 @@ steps:
         from_secret: docker_password
 
   - name: announce
-    image: docker.solid-build.xyz/plugins/slack:latest
+    image: container.solid-build.xyz/drone/plugins/slack:latest
     settings:
       webhook:
         from_secret: ryver_webhook
